@@ -1,0 +1,29 @@
+.CreateWorkout {
+  margin-top: 200px;
+
+  form {
+    display: grid;
+    border: 3px solid black;
+    background-color: #fcfcfa;
+    padding: 30px;
+    margin: 0 auto;
+    width: 40%;
+
+    button {
+      margin-top: 10px;
+      margin-left: 250px;
+      border-radius: 7px;
+      width: 30%;
+    }
+  }
+
+  label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+  }
+
+  label:after {
+    content: ":";
+  }
+}

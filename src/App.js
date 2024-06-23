@@ -26,7 +26,11 @@ function App() {
   ]);
 
   // Function to add a new workout
-  const addWorkout = () => {};
+  const addWorkout = (workout) => { 
+    setWorkoutList([...workoutList, {...workout, id: workoutList.length + 1}])
+
+  };
+  
 
   return (
     <div className="App">

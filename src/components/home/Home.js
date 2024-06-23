@@ -1,8 +1,9 @@
 import React from "react";
+import "./Home.scss"
 
 const Home = () => {
   return (
-    <div>
+    <div className="Home">
       <h2>Welcome to the Fitness Tracker</h2>
       <p>Track your workouts and monitor your progress.</p>
     </div>

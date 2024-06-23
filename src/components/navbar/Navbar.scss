@@ -1,0 +1,32 @@
+.Navbar {
+  display: flex;
+
+  nav {
+    height: 70px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    padding-left: 1350px;
+  }
+
+  ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+  }
+
+  button {
+    background-color: white;
+    border-radius: 3px;
+  }
+
+  button a {
+    color: red;
+    background-color: white;
+    text-decoration: none;
+  }
+
+  button a:hover {
+    color: rgb(208, 117, 117);
+  }
+}
